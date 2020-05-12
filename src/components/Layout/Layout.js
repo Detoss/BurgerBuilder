@@ -4,12 +4,12 @@ import Auxiliary from '../../hoc/Auxiliary'
 import classes from './Layout.css';
 
 const layout = ( props ) => (
-    <Aux>
+    <Auxiliary>
     <div> Toolbar, SideDrawer, Backdrop</div>
     <main className={classes.Content}>
         {props.children}
     </main>
-    </Aux>
+    </Auxiliary>
 );
 
 export default layout;
